@@ -3,6 +3,8 @@
 
 using namespace geode::prelude;
 
+// Credits to Weebifying for this file I couldn't build without it
+
 std::string formatBestTime(int time) {
 	std::ostringstream ftime;
 	if (time / 3600000 >= 1) {
