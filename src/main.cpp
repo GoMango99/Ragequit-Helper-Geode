@@ -14,7 +14,7 @@ class $modify(ModPauseLayer, PauseLayer) {
 		auto winSize = CCDirector::get()->getWinSize();
 		auto level = PlayLayer::get()->m_level;
 
-		auto menu = this->getChildByID("bottom-button-menu");
+		auto menu = this->getChildByID("right-button-menu");
 
 		auto btn_spr = CCSprite::createWithSpriteFrameName("GJ_deleteBtn_001.png");
 		auto btn = CCMenuItemSpriteExtra::create(
